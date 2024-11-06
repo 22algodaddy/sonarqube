@@ -8,4 +8,4 @@ class TestFlaskApp(unittest.TestCase):
 
     def test_hello_world(self):
         response = self.app.get('/')
-        self.assertEqual(response.data.decode(), 'Hello, World!')
+        self.assertEqual(response.data.decode(), 'Changed main.py file!!!')
